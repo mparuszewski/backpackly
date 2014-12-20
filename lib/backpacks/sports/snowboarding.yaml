@@ -1,0 +1,21 @@
+name: Snowboarding backpack
+type: sports
+elements:
+  - name:          Snowboard
+    quantity:      2
+    multiplicable: false
+  - name:          Snowboard shoes
+    quantity:      1
+    multiplicable: false
+  - name:          Ski goggles
+    quantity:      1
+    multiplicable: false
+  - name:          Snowboard suit
+    quantity:      1
+    multiplicable: false
+  - name:          Drawers
+    quantity:      1
+    multiplicable: false
+  - name:          Ski gloves
+    quantity:      1
+    multiplicable: false

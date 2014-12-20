@@ -1,0 +1,9 @@
+name: Tablet backpack
+type: gadgets
+elements:
+  - name:          Tablet
+    quantity:      1
+    multiplicable: false
+  - name:          Tablet charger
+    quantity:      1
+    multiplicable: false

@@ -1,0 +1,18 @@
+name: Swimming backpack
+type: sports
+elements:
+  - name:          Swimwear
+    quantity:      1
+    multiplicable: false
+  - name:          Cap
+    quantity:      1
+    multiplicable: false
+  - name:          Swimming goggles
+    quantity:      1
+    multiplicable: false
+  - name:          Towel
+    quantity:      1
+    multiplicable: false
+  - name:          Flip-flops
+    quantity:      1
+    multiplicable: false

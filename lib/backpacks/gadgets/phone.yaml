@@ -1,0 +1,9 @@
+name: Phone backpack
+type: gadgets
+elements:
+  - name:          Phone
+    quantity:      1
+    multiplicable: false
+  - name:          Phone charger
+    quantity:      1
+    multiplicable: false

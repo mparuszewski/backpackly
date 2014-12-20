@@ -1,0 +1,9 @@
+name: MP3 Player backpack
+type: gadgets
+elements:
+  - name:          MP3 Player
+    quantity:      1
+    multiplicable: false
+  - name:          MP3 Player charger
+    quantity:      1
+    multiplicable: false

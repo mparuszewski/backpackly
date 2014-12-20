@@ -1,0 +1,12 @@
+name: Camera backpack
+type: gadgets
+elements:
+  - name:          Camera
+    quantity:      1
+    multiplicable: false
+  - name:          Memory card
+    quantity:      1
+    multiplicable: false
+  - name:          Camera charger
+    quantity:      1
+    multiplicable: false

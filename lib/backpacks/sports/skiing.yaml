@@ -1,0 +1,21 @@
+name: Skiing backpack
+type: sports
+elements:
+  - name:          Ski
+    quantity:      2
+    multiplicable: false
+  - name:          Ski pole
+    quantity:      1
+    multiplicable: false
+  - name:          Ski goggles
+    quantity:      1
+    multiplicable: false
+  - name:          Ski suit
+    quantity:      1
+    multiplicable: false
+  - name:          Drawers
+    quantity:      1
+    multiplicable: false
+  - name:          Ski gloves
+    quantity:      1
+    multiplicable: false

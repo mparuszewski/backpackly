@@ -1,0 +1,9 @@
+name: Notebook backpack
+type: gadgets
+elements:
+  - name:          Notebook
+    quantity:      1
+    multiplicable: false
+  - name:          Notebook charger
+    quantity:      1
+    multiplicable: false

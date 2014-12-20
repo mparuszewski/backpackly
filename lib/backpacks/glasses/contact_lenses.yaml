@@ -1,0 +1,15 @@
+name: Contact lenses backpack
+type: glasses
+elements:
+  - name:          Contact lenses
+    quantity:      1
+    multiplicable: true
+  - name:          Contact lenses case
+    quantity:      0.2
+    multiplicable: true
+  - name:          Contact lenses liquid
+    quantity:      0.1
+    multiplicable: true
+  - name:          Eye drops
+    quantity:      0.1
+    multiplicable: true

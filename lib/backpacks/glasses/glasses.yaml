@@ -1,0 +1,12 @@
+name: Glasses backpack
+type: glasses
+elements:
+  - name:          Glasses
+    quantity:      1
+    multiplicable: false
+  - name:          Spectacle case
+    quantity:      1
+    multiplicable: false
+  - name:          Glasses cloth
+    quantity:      1
+    multiplicable: false

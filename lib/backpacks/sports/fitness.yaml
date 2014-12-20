@@ -1,0 +1,15 @@
+name: Fitness backpack
+type: sports
+elements:
+  - name:          Leisurewear
+    quantity:      1
+    multiplicable: false
+  - name:          Sport shoes
+    quantity:      1
+    multiplicable: false
+  - name:          Towel
+    quantity:      1
+    multiplicable: false
+  - name:          Flip-flops
+    quantity:      1
+    multiplicable: false
