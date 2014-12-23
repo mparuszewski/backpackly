@@ -1,0 +1,48 @@
+name: Holiday backpack
+type: ahp
+elements:
+  - name:          Sweatshirt
+    quantity:      0.1
+    multiplicable: true
+  - name:          T-Shirt
+    quantity:      0.9
+    multiplicable: true
+  - name:          Shorts
+    quantity:      0.8
+    multiplicable: true
+  - name:          Trousers
+    quantity:      0.2
+    multiplicable: true
+  - name:          Shoes
+    quantity:      0.2
+    multiplicable: true
+  - name:          Sneakers
+    quantity:      0.2
+    multiplicable: true
+  - name:          Flip-flops
+    quantity:      1.0
+    multiplicable: false
+  - name:          Socks
+    quantity:      1.0
+    multiplicable: true
+  - name:          Pants
+    quantity:      1.0
+    multiplicable: true
+  - name:          Jacket
+    quantity:      0.1
+    multiplicable: true
+  - name:          Sunglasses
+    quantity:      1.0
+    multiplicable: false
+  - name:          Towel
+    quantity:      0.2
+    multiplicable: true
+  - name:          Shampoo
+    quantity:      1.0
+    multiplicable: false
+  - name:          Shaving Cream
+    quantity:      1.0
+    multiplicable: false
+  - name:          Umbrella
+    quantity:      1.0
+    multiplicable: false

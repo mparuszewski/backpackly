@@ -1,0 +1,30 @@
+name: Business backpack
+type: ahp
+elements:
+  - name:          Suit
+    quantity:      0.2
+    multiplicable: true
+  - name:          Skirt
+    quantity:      0.9
+    multiplicable: true
+  - name:          Shirt
+    quantity:      0.9
+    multiplicable: true
+  - name:          Nylons
+    quantity:      1.0
+    multiplicable: true
+  - name:          Flat shoes
+    quantity:      0.2
+    multiplicable: true
+  - name:          High heals
+    quantity:      0.2
+    multiplicable: true
+  - name:          Nightdress
+    quantity:      1.0
+    multiplicable: false
+  - name:          Pants
+    quantity:      1.0
+    multiplicable: true
+  - name:          Coat
+    quantity:      1.0
+    multiplicable: false

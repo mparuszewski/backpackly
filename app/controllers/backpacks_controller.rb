@@ -1,14 +1,17 @@
 class BackpacksController < ApplicationController
   def build
-    param! :place,          String#,  required: true
-    param! :date,           Date,    default: -> { Time.now }
+    param! :place,          String,  required: true
+    param! :date,           Time,    default: -> { Time.now }
     param! :accommodation,  String,  in: ['hotel', 'hostel', 'friends_house', 'tent', 'rental'], default: 'hotel'
     param! :stay_length,    Integer, required: true
     param! :reason,         String,  in: ['date', 'business', 'vacation', 'conference']
-    param! :sex,            String,  in: ['m', 'w'], transform: :downcase
-    param! :gadgets,        Array#,   in: ['camera', 'mp3_player', 'notebook', 'phone', 'tablet']
-    param! :sports,         Array#,   in: ['fitness', 'skiing', 'snowboarding', 'swimming']
-    param! :glasses,        Array#,   in: ['contact_lenses', 'glasses']
+    param! :sex,            String,  in: ['man', 'woman'], transform: :downcase
+    param! :gadgets,        Array#,   #in: ['camera', 'mp3_player', 'notebook', 'phone', 'tablet']
+    param! :sports,         Array#,   #in: ['fitness', 'skiing', 'snowboarding', 'swimming']
+    param! :glasses,        Array#,   #in: ['contact_lenses', 'glasses']
+
+
+    p backpack_params
 
     backpacks = []
     builders.each {|builder| backpacks += builder.new(backpack_params).build }
@@ -21,7 +24,7 @@ class BackpacksController < ApplicationController
   private
 
   def builders
-    [FixedBackpackBuilder]
+    [AHPBackpackBuilder, FixedBackpackBuilder]
   end
 
   def serializer
@@ -29,6 +32,6 @@ class BackpacksController < ApplicationController
   end
 
   def backpack_params
-    params.permit(:place, :accommodation, :stay_length, :reason, :sex, gadgets: [], sports: [], glasses: [])
+    params.permit(:date, :place, :accommodation, :stay_length, :reason, :sex, gadgets: [], sports: [], glasses: [])
   end
 end

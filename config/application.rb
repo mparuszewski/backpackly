@@ -7,7 +7,7 @@ Bundler.require(*Rails.groups)
 
 module Backpackly
   class Application < Rails::Application
-    config.autoload_paths += Dir[Rails.root.join('lib', '{**/}')]
+    config.autoload_paths << Rails.root.join('lib')
     config.encoding = 'utf-8'
     config.active_support.escape_html_entities_in_json = true
     config.filter_parameters += [:password]

@@ -1,0 +1,48 @@
+name: Business backpack
+type: ahp
+elements:
+  - name:          Suit
+    quantity:      0.2
+    multiplicable: true
+  - name:          T-Shirt
+    quantity:      0.3
+    multiplicable: true
+  - name:          Shirt
+    quantity:      0.6
+    multiplicable: true
+  - name:          Trousers
+    quantity:      0.3
+    multiplicable: true
+  - name:          Socks
+    quantity:      1.0
+    multiplicable: true
+  - name:          Lace-up shoes
+    quantity:      0.1
+    multiplicable: true
+  - name:          Shoes
+    quantity:      0.1
+    multiplicable: true
+  - name:          FlipFlops
+    quantity:      1.0
+    multiplicable: false
+  - name:          Tie
+    quantity:      0.1
+    multiplicable: true
+  - name:          Pyjamas
+    quantity:      1.0
+    multiplicable: false
+  - name:          Pants
+    quantity:      1.0
+    multiplicable: true
+  - name:          Jacket
+    quantity:      1.0
+    multiplicable: false
+  - name:          Belt
+    quantity:      0.1
+    multiplicable: true
+  - name:          Gloves
+    quantity:      1.0
+    multiplicable: false
+  - name:          Scarf
+    quantity:      1.0
+    multiplicable: false

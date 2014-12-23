@@ -1,0 +1,42 @@
+name: Holiday backpack
+type: ahp
+elements:
+  - name:          Jersey
+    quantity:      0.3
+    multiplicable: true
+  - name:          Tank top
+    quantity:      0.7
+    multiplicable: true
+  - name:          Skirt
+    quantity:      0.6
+    multiplicable: true
+  - name:          Dress
+    quantity:      0.3
+    multiplicable: true
+  - name:          Shoes
+    quantity:      0.4
+    multiplicable: true
+  - name:          Sneakers
+    quantity:      0.5
+    multiplicable: true
+  - name:          Flip-flops
+    quantity:      1.0
+    multiplicable: false
+  - name:          Socks
+    quantity:      1.0
+    multiplicable: true
+  - name:          Pants
+    quantity:      1.0
+    multiplicable: true
+  - name:          Sunglasses
+    quantity:      1.0
+    multiplicable: false
+  - name:          Towel
+    quantity:      0.5
+    multiplicable: true
+  - name:          Shampoo
+    quantity:      1.0
+    multiplicable: false
+  - name:          Shaving Cream
+    quantity:      1.0
+    multiplicable: false
