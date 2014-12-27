@@ -10,9 +10,6 @@ class BackpacksController < ApplicationController
     param! :sports,         Array#,   #in: ['fitness', 'skiing', 'snowboarding', 'swimming']
     param! :glasses,        Array#,   #in: ['contact_lenses', 'glasses']
 
-
-    p backpack_params
-
     backpacks = []
     builders.each {|builder| backpacks += builder.new(backpack_params).build }
 
